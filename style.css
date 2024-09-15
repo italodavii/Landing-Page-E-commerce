@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    background: #4c2494;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 13px;
+    padding: 10px;
+    font-size: 13px;
+
+}
+.div-main{
+    background: #ecf4f4;
+    width: 70vw;
+    height: 75vh;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 5px 5px 25px black;
+}
+.div-main2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.div-main > nav > a > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 45px;
+    padding-top: 5px;
+}
+.div-main > nav{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.div-main > nav > a{
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+.div-main > nav > a:hover, .social:hover{
+    transform: scale(1.1);
+}
+.div-left, .div-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    font-size: 38px;
+    margin-top: 50PX;  
+    padding: 0; 
+    line-height: 65px;
+}
+.h1-1{
+    width: 50%;
+    color: white;
+    background: #4c2494;
+    padding: 5px;
+}
+.h1-2{
+    color: white;
+    background: #fcb404;
+    padding: 5px;
+}
+.div-left > p{
+    width: 85%;
+    font-size: 13px;
+    margin: 30px 0;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
+.button > button{
+    font-size: 15px;
+    width: 170px;
+    height: 35px;
+    background: none;
+    color: #4c2494;
+    font-weight: bold;
+    border: 3px solid #4c2494;
+    border-radius: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.button > button:hover{
+    background: #4c2494;
+    color: white;
+    transform: scale(1.1);
+}
+.button > h5{
+    font-style: italic;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+footer > h6{
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.buy{
+    width: 15px;
+    margin-right: 5px;
+}
+.social{
+    width: 28px;
+    margin: 0 7px;
+}
+.div-right > img{
+    width: 65%;
+    height: 90%;
+    margin: 20px 120px;
+    border-radius: 10px;
+}
