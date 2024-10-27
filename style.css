@@ -1,37 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+body {
     background: #4c2494;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
 }
-main{
+main {
     background: #ecf4f4;
     width: 85vw;
     padding: 40px;
     box-shadow: 5px 5px 25px black;
 }
-nav img{
+nav img {
     width: 50px;
     height: 50px;
 }
-nav{
+nav {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 0 50px;
     width: 100%;
 }
-nav a:hover, .social:hover{
+nav a:hover, .social:hover {
     transform: scale(1.1);
 }
-nav a{
+nav a {
     padding: 20px 90px;
     color: black;
     text-decoration: none;
@@ -49,60 +49,57 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-nav a:hover{
+nav a:hover {
     background: #4c2494;
     color: white;
 }
 
-
-
-
 /*------------------- Tela Principal --------------------------*/
-.div-main2{
+.div-main2 {
     display: flex;
     width: 100%;
     height: 100%;
 }
-.div-left, .div-right{
+.div-left, .div-right {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-.titulo{
+.titulo {
     font-size: 80px;
-    margin-top: 50PX;  
+    margin-top: 50px;  
     line-height: 65px;
     font-weight: bold;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
-.h1-1{
+.h1-1 {
     margin-bottom: 30px;
 }
-.h1-1 span{
+.h1-1 span {
     color: white;
     background: #4c2494;
     padding: 0 10px;
 }
-.h1-2 span{
+.h1-2 span {
     color: white;
     background: #fcb404;
     padding: 0 10px;
 }
-.div-left p{
+.div-left p {
     font-size: 13px;
     margin: 30px 0;
     line-height: 22px;
 }
-.div-left p strong{
+.div-left p strong {
     letter-spacing: 1px;
 }
-.button{
+.button {
     display: flex;
     align-items: center;
 }
-.button button{
+.button button {
     font-size: 15px;
     width: 170px;
     height: 35px;
@@ -114,81 +111,77 @@ nav a:hover{
     margin-right: 40px;
     cursor: pointer;
 }
-.button button:hover{
+.button button:hover {
     background: #4c2494;
     color: white;
     transform: scale(1.1);
 }
-.button h5{
+.button h5 {
     font-style: italic;
     font-size: 15px;
 }
 
-
 /* ---------------------- Footer ----------------------- */
-footer{
+footer {
     width: 100%;
     height: 150px;
     display: flex;
     align-items: flex-end;
 }
-footer div{
+footer div {
     display: flex;
     align-items: center;
 }
-footer h6{
+footer h6 {
     font-weight: bold;
     font-size: 15px;
     margin-right: 20px;
 }
-.social{
+.social {
     width: 28px;
     margin: 0 7px;
 }
-.div-right img{
+.div-right img {
     width: 65%;
     height: 90%;
     margin: 20px 120px;
     border-radius: 10px;
 }
 
-
-
 /*---------------------------------------------------------------------*/
                 /* Home */
-
-.home{
+.home {
     width: 85vw;
     padding: 40px 0;
     box-shadow: 5px 5px 25px black;
 } 
-.logo{
+.logo {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }      
-.logo img{
+.logo img {
     width: 50px;
     height: 50px;
 }     
-.main-home{
+.main-home {
     background: #1cc4b4;
     margin-top: 20px;
     height: 65vh;
     display: flex;
 }
-.left-home, .right-home{
+.left-home, .right-home {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.left-home h1{
+.left-home h1 {
     color: #4c2494;
 }
-.titulo-home button{
+.titulo-home button {
     margin-top: 60px;
     padding: 10px 20px;
     font-size: 18px;
@@ -196,31 +189,32 @@ footer h6{
     border: 1px solid black;
     background: #fcb404;
 }
-.titulo-home button:hover{
+.titulo-home button:hover {
     transform: scale(1.1);
 }
-.right-home img{
+.right-home img {
     width: 500px;
 }
 
 /*----------------------- section ---------------------------*/
-.section{
+.section {
     padding: 40px;
     display: flex;
 }
-.descrition{
+.descrition {
     width: 55%;
     margin: 60px 60px 10px 0;
 }
-.descrition h1{
+.descrition h1 {
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 10px;
 }
-.descrition p{
+.descrition p {
     line-height: 27px;
 }
+
 /*----- Formulário ----*/
-form{
+form {
     width: 40%;
     background: #ecf4fc;
     padding: 10px;
@@ -228,13 +222,13 @@ form{
     display: flex;
     flex-direction: column;
 }
-form h1{
+form h1 {
     font-size: 23px;
     text-align: center;
     margin: 20px 0 50px 0;
     line-height: 30px;
 }
-form input{
+form input {
     margin-bottom:30px;
     padding:10px;
     border: none;
@@ -243,14 +237,13 @@ form input{
     outline: none;
     font-size: 18px;
 }
-.input-radio input{
+.input-radio input {
     transform: scale(1.1);
-
 }
-.input-radio span{
+.input-radio span {
     font-size: 10px;
 }
-form button{
+form button {
     padding: 8px;
     font-size: 15px;
     border-radius: 20px;
@@ -259,16 +252,151 @@ form button{
     color: #4c2494;
     font-weight: bold;
 }
-form button:hover{
+form button:hover {
     background: #4c2494;
     color: white;
 }
 
 
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: 60px;
+    }
+    .div-left p {
+        font-size: 12px;
+    }
+    .div-left, .div-right {
+        width: 100%;
+    }
+    .div-right img {
+        width: 90%;
+        margin: 20px auto;
+    }
+    nav a {
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+}
 
+@media (max-width: 768px) {
+    nav a {
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+    .titulo {
+        font-size: 50px;
+        text-align: center;
+    }
+    .h1-1, .h1-2 {
+        line-height: 50px;
+    }
+    .button button {
+        font-size: 14px;
+        width: 140px;
+    }
+    .div-left p {
+        font-size: 12px;
+    }
+    .div-main2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-left, .div-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .div-right img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .social {
+        width: 24px;
+        margin: 0 5px;
+    }
+    /* Responsividade da Home */
+    .home {
+        width: 100vw;
+        padding: 20px 10px;
+    }
+    .main-home {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-home {
+        width: 100%;
+        text-align: center;
+    }
+    .left-home h1 {
+        font-size: 1.5rem;
+    }
+    .titulo-home button {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .right-home {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .right-home img {
+        width: 80%;
+        max-width: 300px;
+    }
+}
 
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 40px;
+    }
+    nav a {
+        font-size: 14px;
+        padding: 8px 30px;
+    }
+    .div-left p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .button button {
+        font-size: 12px;
+        width: 130px;
+    }
+    .main-home, .section {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .descrition, form {
+        width: 100%;
+        padding: 0;
+    }
+    .right-home img {
+        width: 100%;
+    }
+    form h1 {
+        font-size: 20px;
+    }
+}
 
-
-
-
-
+/* Responsividade da Home */
+@media (max-width: 1024px) {
+    .left-home h1 {
+        font-size: 2rem;
+    }
+    .right-home img {
+        width: 70%;
+        max-width: 400px;
+    }
+    .section {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .descrition, form {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    form {
+        margin-top: 20px;
+    }
+}
