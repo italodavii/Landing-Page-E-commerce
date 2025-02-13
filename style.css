@@ -9,11 +9,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px 100px;
 }
 main {
     background: #ecf4f4;
-    width: 85vw;
+    width: 70vw;
     padding: 40px;
     box-shadow: 5px 5px 25px black;
 }
@@ -32,10 +32,10 @@ nav a:hover, .social:hover {
     transform: scale(1.1);
 }
 nav a {
-    padding: 20px 90px;
+    
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     width: 130px;
     height: 30px;
     color: #4c2494;
@@ -67,7 +67,7 @@ nav a:hover {
     flex-direction: column;
 }
 .titulo {
-    font-size: 80px;
+    font-size: 65px;
     margin-top: 50px;  
     line-height: 65px;
     font-weight: bold;
@@ -75,7 +75,7 @@ nav a:hover {
     flex-direction: column;
 }
 .h1-1 {
-    margin-bottom: 30px;
+    margin-bottom: 13px;
 }
 .h1-1 span {
     color: white;
@@ -141,17 +141,21 @@ footer h6 {
     width: 28px;
     margin: 0 7px;
 }
-.div-right img {
+.img-div-right {
     width: 65%;
     height: 90%;
     margin: 20px 120px;
     border-radius: 10px;
 }
 
+.footerBlock {
+    display: none;
+}
+
 /*---------------------------------------------------------------------*/
                 /* Home */
 .home {
-    width: 85vw;
+    width: 80vw;
     padding: 40px 0;
     box-shadow: 5px 5px 25px black;
 } 
@@ -168,8 +172,9 @@ footer h6 {
 .main-home {
     background: #1cc4b4;
     margin-top: 20px;
-    height: 65vh;
+    height: 55vh;
     display: flex;
+    padding: 10px 20px;
 }
 .left-home, .right-home {
     width: 50%;
@@ -263,16 +268,20 @@ form button:hover {
     .titulo {
         font-size: 60px;
     }
+
     .div-left p {
         font-size: 12px;
     }
+
     .div-left, .div-right {
         width: 100%;
     }
+
     .div-right img {
         width: 90%;
         margin: 20px auto;
     }
+
     nav a {
         padding: 10px 50px;
         font-size: 18px;
@@ -284,64 +293,97 @@ form button:hover {
         font-size: 16px;
         padding: 10px 40px;
     }
+
     .titulo {
         font-size: 50px;
         text-align: center;
     }
+
     .h1-1, .h1-2 {
         line-height: 50px;
     }
+
     .button button {
         font-size: 14px;
         width: 140px;
     }
+
     .div-left p {
         font-size: 12px;
     }
+
     .div-main2 {
         flex-direction: column;
         align-items: center;
     }
-    .div-left, .div-right {
+
+    .div-left {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
+
     .div-right img {
         width: 80%;
         margin: 0 auto;
     }
-    .social {
+    
+    footer {
+        display: none;
+    }
+
+    .footerBlock {
+        display: flex;
+        align-items: center;
+    }
+
+    .footerBlock .social {
         width: 24px;
         margin: 0 5px;
     }
+
+
     /* Responsividade da Home */
     .home {
         width: 100vw;
         padding: 20px 10px;
     }
+
     .main-home {
         flex-direction: column;
         height: auto;
     }
+
     .left-home {
         width: 100%;
         text-align: center;
     }
+
     .left-home h1 {
         font-size: 1.5rem;
     }
+    
     .titulo-home button {
         margin-top: 20px;
         font-size: 1rem;
     }
+
     .right-home {
         width: 100%;
         margin-top: 20px;
         text-align: center;
     }
+
     .right-home img {
         width: 80%;
         max-width: 300px;
+    }
+}
+
+
+@media (max-width: 527px) {
+    .button button, .button h5{
+        font-size: 12px;
+        margin-right: 20px;
     }
 }
 
@@ -349,54 +391,102 @@ form button:hover {
     .titulo {
         font-size: 40px;
     }
+
     nav a {
         font-size: 14px;
         padding: 8px 30px;
     }
+
     .div-left p {
         font-size: 10px;
         text-align: center;
     }
+
     .button button {
         font-size: 12px;
         width: 130px;
     }
+
     .main-home, .section {
         flex-direction: column;
         padding: 20px;
     }
+
     .descrition, form {
         width: 100%;
         padding: 0;
     }
+
     .right-home img {
         width: 100%;
     }
+
     form h1 {
         font-size: 20px;
     }
 }
 
+
+@media (max-width: 420px) {
+    .button button {
+        
+    }
+}
+
+
 /* Responsividade da Home */
 @media (max-width: 1024px) {
     .left-home h1 {
-        font-size: 2rem;
+        font-size: 25px;
     }
+
     .right-home img {
         width: 70%;
         max-width: 400px;
     }
+
     .section {
         flex-direction: column;
         align-items: center;
         padding: 20px;
     }
+
     .descrition, form {
         width: 100%;
         margin: 0;
         padding: 10px;
     }
+
     form {
         margin-top: 20px;
     }
 }
+
+
+@media (max-width: 639px) {
+    .left-home h1 {
+        font-size: 18px;
+    }
+
+    .descrition h1 {
+        font-size: 20px;
+    }
+
+    .descrition p, form input {
+        font-size: 14px;
+    }
+
+    form h1 {
+        font-size: 17px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    form button {
+        font-size: 12px;
+    }
+    
+}
+
