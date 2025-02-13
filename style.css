@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 0px;
 }
 main {
     background: #ecf4f4;
@@ -155,7 +155,7 @@ footer h6 {
                 /* Home */
 .home {
     width: 80vw;
-    padding: 40px 0;
+    padding: 20px 0;
     box-shadow: 5px 5px 25px black;
 } 
 .logo {
@@ -172,6 +172,7 @@ footer h6 {
     background: #1cc4b4;
     margin-top: 20px;
     height: 55vh;
+    width: 100%;
     display: flex;
     padding: 10px 20px;
 }
@@ -201,7 +202,7 @@ footer h6 {
 }
 
 /*----------------------- section ---------------------------*/
-.section {
+.about-section {
     padding: 40px;
     display: flex;
 }
@@ -220,6 +221,7 @@ footer h6 {
 /*----- Formulário ----*/
 form {
     width: 40%;
+    max-width: 400px;
     background: #ecf4fc;
     padding: 10px;
     border: 1px solid gray;
@@ -227,11 +229,16 @@ form {
     flex-direction: column;
 }
 form h1 {
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
     margin: 20px 0 50px 0;
     line-height: 30px;
 }
+
+label {
+    font-size: 18px;
+}
+
 form input {
     margin-bottom:30px;
     padding:10px;
@@ -347,12 +354,12 @@ form button:hover {
         margin: 0 5px;
     }
 
+    main {
+        width: 80vw;
+        padding: 40px 30px;
+    }
 
     /* Responsividade da Home */
-    .home {
-        width: 100vw;
-        padding: 20px 10px;
-    }
 
     .main-home {
         flex-direction: column;
@@ -386,14 +393,6 @@ form button:hover {
 }
 
 
-@media (max-width: 600px) {
-    main {
-        width: 80vw;
-        padding: 40px 30px;
-    }
-}
-
-
 @media (max-width: 480px) {
     main {
         width: 95vw;
@@ -423,7 +422,7 @@ form button:hover {
         width: 130px;
     }
 
-    .main-home, .section {
+    .main-home, .about-section {
         flex-direction: column;
         padding: 20px;
     }
@@ -454,7 +453,7 @@ form button:hover {
         max-width: 400px;
     }
 
-    .section {
+    .about-section {
         flex-direction: column;
         align-items: center;
         padding: 20px;
