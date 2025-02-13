@@ -427,13 +427,6 @@ form button:hover {
 }
 
 
-@media (max-width: 420px) {
-    .button button {
-        
-    }
-}
-
-
 /* Responsividade da Home */
 @media (max-width: 1024px) {
     .left-home h1 {
